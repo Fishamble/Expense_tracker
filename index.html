@@ -15,6 +15,40 @@
   </head>
   <body>
     <header class="flexU"><h1>Expense tracker app</h1></header>
-    <div class="container"></div>
+    <div class="container">
+      <form action="">
+        <label for="expName">Where?</label>
+        <input
+          type="text"
+          id="expName"
+          name="expName"
+          placeholder="Enter name of shop here"
+        />
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" />
+
+        <label for="ammount"></label>
+        <input type="number" id="ammount" placeholder="Enter ammount" />
+        <input type="submit" id="buttonSubmit" value="Enter Expense" />
+
+        <table id="expTable">
+          <thead>
+            <tr>
+              <th>Expense</th>
+              <th>Date</th>
+              <th>Ammount</th>
+            </tr>
+          </thead>
+          <tbody id="tblBody"></tbody>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>0</td>
+            </tr>
+          </tfoot>
+        </table>
+      </form>
+    </div>
   </body>
 </html>

@@ -22,3 +22,8 @@ header {
   background-color: blanchedalmond;
   height: 90vh;
 }
+
+#expTable th,
+#expTable tr {
+  border: 1px solid black;
+}
