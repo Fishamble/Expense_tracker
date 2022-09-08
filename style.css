@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flexU {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  height: 10vh;
+  background-color: aqua;
+}
+
+.container {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  height: 90vh;
+}
